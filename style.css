@@ -181,7 +181,6 @@ body {
   text-align: center;
   text-decoration: none;
   margin: 0 auto;
-  
 }
 .show-button {
   width: 320px;
@@ -198,7 +197,7 @@ body {
   border-radius: 8px;
   padding: 8px 16px 8px 16px;
   opacity: 60%;
-  gap:10px;
+  gap: 10px;
   border: none;
   margin-top: 36px;
   margin-bottom: 22px;
@@ -207,21 +206,21 @@ body {
 @media (max-width: 730px) {
   .maincard-all {
     display: none;
-
   }
   .grid-container {
     gap: 24px;
-    margin: 16px;
+    margin: 0 16px;
   }
   .show-button {
-    background-image:linear-gradient(to right, rgb(86, 110, 134), rgb(3, 20, 26));
+    background-image: linear-gradient(
+      to right,
+      rgb(86, 110, 134),
+      rgb(3, 20, 26)
+    );
     width: 100%;
-  
   }
   .show-link {
-    
     padding: 0 16px;
-    
-
+    margin-top: -12px;
   }
 }
