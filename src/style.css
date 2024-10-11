@@ -34,6 +34,10 @@ body {
   opacity: 0px;
   overflow: auto;
 }
+.maincard-all:hover h1 {
+  display: block;
+
+}
 
 .maincard-container p {
   font-family: Hind;
@@ -59,6 +63,11 @@ body {
 }
 .maintitle-container h1 {
   color: rgba(72, 96, 114, 1);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+
 }
 .maintitle-container span {
   font-family: Hind;
